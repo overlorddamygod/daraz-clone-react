@@ -1,0 +1,36 @@
+.card_title {
+    font-size: 0.1rem !important;
+}
+
+.actual_price > span {
+    text-decoration: line-through;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.ant-card-body {
+    padding:10px;
+}
+
+.description > .price {
+    margin-top: 3px;
+    color:#F57224;
+    font-weight: bold;
+    font-size: 1rem;
+    flex:0.8;
+}
+
+.description > span {
+    display: flex;
+    align-items: center;
+}
+
+.description > span > span {
+    margin-left: 3px;
+    color:grey;
+}

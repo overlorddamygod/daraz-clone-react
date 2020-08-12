@@ -1,0 +1,28 @@
+.section_title {
+    font-weight: 600;
+    color:#444444;
+    margin-top: 1rem;
+    margin-bottom:0.2rem;
+    font-size: 1.2rem;
+}
+
+.section > .section_products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.load_button {
+    border: 1px solid #1A99B5 ;
+    background: transparent;
+    padding:0.5rem 200px;  
+    color:#1A99B5;
+    font-weight: bold;
+    cursor:pointer;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
