@@ -5,3 +5,12 @@
 .banner img {
     object-fit: contain;
 }
+
+.ant-menu-submenu-vertical {
+    line-height:15px !important;
+}
+.ant-menu-submenu-title {
+    height:15px !important;
+    line-height:15px !important;
+    margin-top: 0.5px !important;
+}
