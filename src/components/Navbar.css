@@ -1,73 +1,78 @@
 .navbar {
-    position: sticky;
-    z-index: 100;
-    top:0;
-    width:100%;
-    overflow: hidden;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 /* Top Navbar */
 .navbar_top {
-    background-color: #ECECEC;
+  background-color: #ececec;
 }
-.navbar_top > .container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.navbar_top > .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .navbar_top > .container > h5 {
-    margin-right: 1.8rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
+  margin-right: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .navbar_top > .container > h5:hover {
-    text-decoration: underline;
-    color: #F27B48;
+  text-decoration: underline;
+  color: #f27b48;
 }
 
 /* Bottom Navbar */
 .navbar_bottom {
-    background-color: white;
+  background-color: white;
 }
 .navbar_bottom > .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0;
 }
 
-.navbar_bottom > .container > img {
-    object-fit: contain;
-    width: 8rem;
-    cursor: pointer;
+.navbar_bottom > .container img {
+  object-fit: contain;
+  width: 8rem;
+  cursor: pointer;
 }
-.navbar_bottom > .container > .navbar_bottom_right > img{
-    object-fit: contain;
-    width: 12rem;
-    margin-right:1.8rem;
-    cursor: pointer;
+.navbar_bottom > .container > .navbar_bottom_right > img {
+  object-fit: contain;
+  width: 12rem;
+  margin-right: 1.8rem;
+  cursor: pointer;
 }
 
 .navbar_bottom > .container > .navbar_bottom_right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex:0.28;
-    font-size: 1.7rem;
-    color:black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0.28;
+  font-size: 1.7rem;
+  color: black;
 }
 
 .navbar_bottom > .container > .search {
-    flex:0.57;
+  flex: 0.57;
 }
 
 .ant-input-group {
-    background-color: #ECECEC;
+  background-color: #ececec;
 }
-.ant-input-group > .ant-input-group-addon > button,.ant-input-group > .ant-input-group-addon {
-    background-color: #F57224;
-    border:0;
+.ant-input-group > .ant-input-group-addon > button,
+.ant-input-group > .ant-input-group-addon {
+  background-color: #f57224;
+  border: 0;
+}
+
+a {
+  color: black;
 }

@@ -30,7 +30,7 @@ function Categories() {
         <div className="categories">
             {imgSrc.map((img)=> (
                 <div className="category" key={img.name}>
-                    <img src={img.url} alt={img.name}/>
+                    <img src={img.url} alt={""}/>
                     <div>{img.name}</div>
                     <RightOutlined/>
                 </div>
